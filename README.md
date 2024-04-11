@@ -1,8 +1,8 @@
 1. 프론트엔드에서 GET 요청 시 음식점 정보API를 제공
    
 2. 클라이언트가 검색어를 통해 검색하면, 크롤링 한 정보를 리스트로 제공
-- http://localhost:8080/restaurants/search/byFoodName 음식이름으로 요청하는URL
-- http://localhost:8080/restaurants/search/byAddress 지역명으로 요청하는URL
+- http://localhost:8080/restaurants/search/byFoodName?foodName=(음식명) 음식명으로 요청하는URL
+- http://localhost:8080/restaurants/search/byAddress?address=(지역명) 지역명으로 요청하는URL
 - 현재 Response body에는 식당명, 식당 전화번호, 식당주소를 포함하여 응답
 
 
