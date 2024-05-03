@@ -16,24 +16,24 @@ public class RestaurantData implements CommandLineRunner {
     public void run(String... args) throws Exception {
         // 음식점 정보를 직접 저장
         RestaurantEntity restaurant1 = new RestaurantEntity();
-        restaurant1.setFoodName("햄버거");
-        restaurant1.setName("승민");
-        restaurant1.setNumber("123");
-        restaurant1.setAddress("천안");
+        restaurant1.setFoodName("피자");
+        restaurant1.setName("META PIZZA");
+        restaurant1.setNumber("053-939-6767");
+        restaurant1.setAddress("대구광역시 북구 대학로 103 지하1층");
         restaurantRepository.save(restaurant1);
 
         RestaurantEntity restaurant2 = new RestaurantEntity();
-        restaurant2.setFoodName("피자");
-        restaurant2.setName("건용");
-        restaurant2.setNumber("123");
-        restaurant2.setAddress("서울");
+        restaurant2.setFoodName("치킨");
+        restaurant2.setName("뉴욕통닭");
+        restaurant2.setNumber("053-253-0070");
+        restaurant2.setAddress("대구광역시 중구 종로 12");
         restaurantRepository.save(restaurant2);
 
         RestaurantEntity restaurant3 = new RestaurantEntity();
         restaurant3.setFoodName("치킨");
-        restaurant3.setName("주영");
-        restaurant3.setNumber("123");
-        restaurant3.setAddress("아산");
+        restaurant3.setName("원주통닭");
+        restaurant3.setNumber("053-424-5129");
+        restaurant3.setAddress("대구광역시 중구 동성로6길 42-6");
         restaurantRepository.save(restaurant3);
         
         RestaurantEntity restaurant4 = new RestaurantEntity();
@@ -100,14 +100,14 @@ public class RestaurantData implements CommandLineRunner {
         restaurantRepository.save(restaurant12);
 
         RestaurantEntity restaurant13 = new RestaurantEntity();
-        restaurant13.setFoodName("카페");
+        restaurant13.setFoodName("카페디저트");
         restaurant13.setName("카페로건");
         restaurant13.setNumber("053-216-1674");
         restaurant13.setAddress("대구광역시 중구 동인동4가 176-1");
         restaurantRepository.save(restaurant13);
 
         RestaurantEntity restaurant14 = new RestaurantEntity();
-        restaurant14.setFoodName("카페");
+        restaurant14.setFoodName("카페디저트");
         restaurant14.setName("리시트2");
         restaurant14.setNumber("010-****-5505");
         restaurant14.setAddress("대구광역시 중구 남성로 111");
@@ -147,6 +147,13 @@ public class RestaurantData implements CommandLineRunner {
         restaurant19.setNumber("010-****-1017");
         restaurant19.setAddress("대구광역시 중구 공평동 10-2");
         restaurantRepository.save(restaurant19);
+
+        RestaurantEntity restaurant20 = new RestaurantEntity();
+        restaurant20.setFoodName("한식");
+        restaurant20.setName("동아식당");
+        restaurant20.setNumber("010-****-1017");
+        restaurant20.setAddress("대구광역시 중구 공평동 10-2");
+        restaurantRepository.save(restaurant20);
 
 
         // 추가적인 음식점 정보 저장 가능
