@@ -24,6 +24,7 @@ public class RestaurantData implements CommandLineRunner {
         restaurant1.setName("META PIZZA");
         restaurant1.setNumber("053-939-6767");
         restaurant1.setAddress("대구광역시 북구 대학로 103 지하1층");
+        restaurant1.setInfo("맛있는 음식점입니다");
         restaurantRepository.save(restaurant1);
 
         RestaurantEntity restaurant2 = new RestaurantEntity();
@@ -31,6 +32,7 @@ public class RestaurantData implements CommandLineRunner {
         restaurant2.setName("뉴욕통닭");
         restaurant2.setNumber("053-253-0070");
         restaurant2.setAddress("대구광역시 중구 종로 12");
+        restaurant2.setInfo("맛있는 음식점입니다");
         restaurantRepository.save(restaurant2);
 
         RestaurantEntity restaurant3 = new RestaurantEntity();
@@ -38,6 +40,7 @@ public class RestaurantData implements CommandLineRunner {
         restaurant3.setName("원주통닭");
         restaurant3.setNumber("053-424-5129");
         restaurant3.setAddress("대구광역시 중구 동성로6길 42-6");
+        restaurant3.setInfo("맛있는 음식점입니다");
         restaurantRepository.save(restaurant3);
         
         RestaurantEntity restaurant4 = new RestaurantEntity();
@@ -45,6 +48,7 @@ public class RestaurantData implements CommandLineRunner {
         restaurant4.setName("장모님국밥");
         restaurant4.setNumber("053-425-9347");
         restaurant4.setAddress("대구광역시 중구 삼덕동2가 149-6");
+        restaurant4.setInfo("맛있는 음식점입니다");
         restaurantRepository.save(restaurant4);
 
         RestaurantEntity restaurant5 = new RestaurantEntity();
@@ -52,6 +56,7 @@ public class RestaurantData implements CommandLineRunner {
         restaurant5.setName("춘천옥");
         restaurant5.setNumber("053-422-3333");
         restaurant5.setAddress("대구광역시 중구 동인동4가 4");
+        restaurant5.setInfo("맛있는 음식점입니다");
         restaurantRepository.save(restaurant5);
 
         RestaurantEntity restaurant6 = new RestaurantEntity();
@@ -59,6 +64,7 @@ public class RestaurantData implements CommandLineRunner {
         restaurant6.setName("청해회수산");
         restaurant6.setNumber("053-422-6921");
         restaurant6.setAddress("대구광역시 중구 대봉동 17-10");
+        restaurant6.setInfo("맛있는 음식점입니다");
         restaurantRepository.save(restaurant6);
 
         RestaurantEntity restaurant7 = new RestaurantEntity();
@@ -66,6 +72,7 @@ public class RestaurantData implements CommandLineRunner {
         restaurant7.setName("유랑");
         restaurant7.setNumber("123");
         restaurant7.setAddress("");
+        restaurant7.setInfo("맛있는 음식점입니다");
         restaurantRepository.save(restaurant7);
 
         RestaurantEntity restaurant8 = new RestaurantEntity();
@@ -73,6 +80,7 @@ public class RestaurantData implements CommandLineRunner {
         restaurant8.setName("와리바시");
         restaurant8.setNumber("053-422-3888");
         restaurant8.setAddress("대구광역시 중구 동인동3가 220-3");
+        restaurant8.setInfo("맛있는 음식점입니다");
         restaurantRepository.save(restaurant8);
 
         RestaurantEntity restaurant9 = new RestaurantEntity();
@@ -80,6 +88,7 @@ public class RestaurantData implements CommandLineRunner {
         restaurant9.setName("조밀");
         restaurant9.setNumber("070-8888-0505");
         restaurant9.setAddress("대구광역시 중구 봉산동 37-33");
+        restaurant9.setInfo("맛있는 음식점입니다");
         restaurantRepository.save(restaurant9);
 
         RestaurantEntity restaurant10 = new RestaurantEntity();
@@ -87,6 +96,7 @@ public class RestaurantData implements CommandLineRunner {
         restaurant10.setName("로니스도우");
         restaurant10.setNumber("010-****-6176");
         restaurant10.setAddress("대구광역시 중구 공평동 1-5");
+        restaurant10.setInfo("맛있는 음식점입니다");
         restaurantRepository.save(restaurant10);
 
         RestaurantEntity restaurant11 = new RestaurantEntity();
@@ -94,6 +104,7 @@ public class RestaurantData implements CommandLineRunner {
         restaurant11.setName("야자수지붕");
         restaurant11.setNumber("053-256-3723");
         restaurant11.setAddress("대구광역시 중구 동문동 4-9");
+        restaurant11.setInfo("맛있는 음식점입니다");
         restaurantRepository.save(restaurant11);
 
         RestaurantEntity restaurant12 = new RestaurantEntity();
@@ -101,6 +112,7 @@ public class RestaurantData implements CommandLineRunner {
         restaurant12.setName("노세콘도(Nosecondo)");
         restaurant12.setNumber("010-****-6451");
         restaurant12.setAddress("대구광역시 중구 대안동 22");
+        restaurant12.setInfo("맛있는 음식점입니다");
         restaurantRepository.save(restaurant12);
 
         RestaurantEntity restaurant13 = new RestaurantEntity();
@@ -582,6 +594,536 @@ public class RestaurantData implements CommandLineRunner {
         restaurant80.setNumber("0507-1477-2219");
         restaurant80.setAddress("충남 공주시 국고개길 6-1 1층");
         restaurantRepository.save(restaurant80);
+
+        //충북-----------------------------------------------------------------------------------------------------------
+        RestaurantEntity restaurant81 = new RestaurantEntity();
+        restaurant81.setFoodName("한식");
+        restaurant81.setName("백향담");
+        restaurant81.setNumber("070-4242-7545");
+        restaurant81.setAddress("충북 단양군 단양읍 수변로 79 2층");
+        restaurantRepository.save(restaurant81);
+
+        RestaurantEntity restaurant82 = new RestaurantEntity();
+        restaurant82.setFoodName("한식");
+        restaurant82.setName("뜰이있는집");
+        restaurant82.setNumber("0507-1420-8585");
+        restaurant82.setAddress("충북 제천시 하소천길 176 뜰이있는집");
+        restaurantRepository.save(restaurant82);
+
+        RestaurantEntity restaurant83 = new RestaurantEntity();
+        restaurant83.setFoodName("카페디저트");
+        restaurant83.setName("카페산");
+        restaurant83.setNumber("0507-1353-0868");
+        restaurant83.setAddress("충북 단양군 가곡면 두산길 196-86");
+        restaurantRepository.save(restaurant83);
+
+        RestaurantEntity restaurant84 = new RestaurantEntity();
+        restaurant84.setFoodName("고기");
+        restaurant84.setName("마늘석갈비막국수");
+        restaurant84.setNumber("0507-1412-7575");
+        restaurant84.setAddress("충북 단양군 단양읍 단양로 510");
+        restaurantRepository.save(restaurant84);
+
+        RestaurantEntity restaurant85 = new RestaurantEntity();
+        restaurant85.setFoodName("고기");
+        restaurant85.setName("가연한우 정육식당");
+        restaurant85.setNumber("043-715-7793");
+        restaurant85.setAddress("충북 청주시 청원구 공항로141번길 29 1층");
+        restaurantRepository.save(restaurant85);
+
+        RestaurantEntity restaurant86 = new RestaurantEntity();
+        restaurant86.setFoodName("해물,해물찜");
+        restaurant86.setName("대구왕뽈때기");
+        restaurant86.setNumber("043-214-4300");
+        restaurant86.setAddress("충북 청주시 청원구 오창읍 중심상업로 52-5");
+        restaurantRepository.save(restaurant86);
+
+        RestaurantEntity restaurant87 = new RestaurantEntity();
+        restaurant87.setFoodName("고기,찌개,전골");
+        restaurant87.setName("황할머니갈비집");
+        restaurant87.setNumber("043-222-9292");
+        restaurant87.setAddress("충북 청주시 상당구 남사로140번길 30 청주 맛집 황할머니갈비집");
+        restaurantRepository.save(restaurant87);
+
+        RestaurantEntity restaurant88 = new RestaurantEntity();
+        restaurant88.setFoodName("고기");
+        restaurant88.setName("창심관 지웰시티점");
+        restaurant88.setNumber("0507-1418-6568");
+        restaurant88.setAddress("충북 청주시 흥덕구 진재로 108");
+        restaurantRepository.save(restaurant88);
+
+        RestaurantEntity restaurant89 = new RestaurantEntity();
+        restaurant89.setFoodName("중식");
+        restaurant89.setName("금용");
+        restaurant89.setNumber("0507-1408-0765");
+        restaurant89.setAddress("충북 청주시 청원구 내덕로 33 1층");
+        restaurantRepository.save(restaurant89);
+
+        RestaurantEntity restaurant90 = new RestaurantEntity();
+        restaurant90.setFoodName("백숙,삼계탕,한식");
+        restaurant90.setName("숲속장수촌");
+        restaurant90.setNumber("0507-1446-2526");
+        restaurant90.setAddress("충북 충주시 쇠저울1길 36");
+        restaurantRepository.save(restaurant90);
+
+        RestaurantEntity restaurant92 = new RestaurantEntity();
+        restaurant92.setFoodName("한식,국수");
+        restaurant92.setName("중앙탑막국수");
+        restaurant92.setNumber("043-846-5508");
+        restaurant92.setAddress("충북 충주시 중앙탑면 중앙탑길 109");
+        restaurantRepository.save(restaurant92);
+
+        RestaurantEntity restaurant93 = new RestaurantEntity();
+        restaurant93.setFoodName("카페디저트");
+        restaurant93.setName("엔트라포레");
+        restaurant93.setNumber("0507-1353-7449");
+        restaurant93.setAddress("충북 청주시 상당구 남일면 가좌신송로 190-53 엔트라포레");
+        restaurantRepository.save(restaurant93);
+
+        RestaurantEntity restaurant94 = new RestaurantEntity();
+        restaurant94.setFoodName("고기");
+        restaurant94.setName("창심관 율량점");
+        restaurant94.setNumber("0507-1371-3267");
+        restaurant94.setAddress("충북 청주시 청원구 1순환로 118 101호");
+        restaurantRepository.save(restaurant94);
+
+        RestaurantEntity restaurant95 = new RestaurantEntity();
+        restaurant95.setFoodName("일식");
+        restaurant95.setName("아키아키");
+        restaurant95.setNumber("0507-1437-2113");
+        restaurant95.setAddress("충북 청주시 흥덕구 1순환로 528");
+        restaurantRepository.save(restaurant95);
+
+        RestaurantEntity restaurant96 = new RestaurantEntity();
+        restaurant96.setFoodName("한식");
+        restaurant96.setName("대교식당");
+        restaurant96.setNumber("0507-1363-4008");
+        restaurant96.setAddress("충북 단양군 단양읍 중앙2로 9 대교식당");
+        restaurantRepository.save(restaurant96);
+
+        //전북-----------------------------------------------------------------------------------------------------------
+        RestaurantEntity restaurant97 = new RestaurantEntity();
+        restaurant97.setFoodName("치킨");
+        restaurant97.setName("BHC치킨 군산지곡점");
+        restaurant97.setNumber("0507-1432-0562");
+        restaurant97.setAddress("전북 군산시 계산로 87-6");
+        restaurantRepository.save(restaurant97);
+
+        RestaurantEntity restaurant98 = new RestaurantEntity();
+        restaurant98.setFoodName("중식");
+        restaurant98.setName("지린성");
+        restaurant98.setNumber("0507-1369-2905");
+        restaurant98.setAddress("전북 군산시 미원로 87");
+        restaurantRepository.save(restaurant98);
+
+        RestaurantEntity restaurant99 = new RestaurantEntity();
+        restaurant99.setFoodName("한식");
+        restaurant99.setName("한일옥");
+        restaurant99.setNumber("063-446-5502");
+        restaurant99.setAddress("전북 군산시 구영3길 63");
+        restaurantRepository.save(restaurant99);
+
+        RestaurantEntity restaurant100 = new RestaurantEntity();
+        restaurant100.setFoodName("순대,국밥");
+        restaurant100.setName("조점례남문피순대");
+        restaurant100.setNumber("1551-5066");
+        restaurant100.setAddress("전북 전주시 완산구 풍남문2길 39 조점례 남문피순대");
+        restaurantRepository.save(restaurant100);
+
+        RestaurantEntity restaurant101 = new RestaurantEntity();
+        restaurant101.setFoodName("고기");
+        restaurant101.setName("자매갈비전골");
+        restaurant101.setNumber("0507-1420-7953");
+        restaurant101.setAddress("전북 전주시 완산구 기린대로 121 본관");
+        restaurantRepository.save(restaurant101);
+
+        RestaurantEntity restaurant102 = new RestaurantEntity();
+        restaurant102.setFoodName("해물,해물찜");
+        restaurant102.setName("한소끔");
+        restaurant102.setNumber("0507-1438-8181");
+        restaurant102.setAddress("전북 군산시 백토로 284-8");
+        restaurantRepository.save(restaurant102);
+
+        RestaurantEntity restaurant103 = new RestaurantEntity();
+        restaurant103.setFoodName("한식");
+        restaurant103.setName("전라도음식이야기");
+        restaurant103.setNumber("063-244-4477");
+        restaurant103.setAddress("전북 전주시 덕진구 아중6길 14-6 전라도음식이야기");
+        restaurantRepository.save(restaurant103);
+
+        RestaurantEntity restaurant104 = new RestaurantEntity();
+        restaurant104.setFoodName("중식");
+        restaurant104.setName("복성루");
+        restaurant104.setNumber("063-445-8412");
+        restaurant104.setAddress("전북 군산시 월명로 382 복성루");
+        restaurantRepository.save(restaurant104);
+
+        RestaurantEntity restaurant105 = new RestaurantEntity();
+        restaurant105.setFoodName("양식,파스타");
+        restaurant105.setName("쉐프테라스");
+        restaurant105.setNumber("0507-1474-1073");
+        restaurant105.setAddress("전북 군산시 수송로 135 1층, 2층 쉐프테라스");
+        restaurantRepository.save(restaurant105);
+
+        RestaurantEntity restaurant106 = new RestaurantEntity();
+        restaurant106.setFoodName("국밥");
+        restaurant106.setName("현대옥 전주본점");
+        restaurant106.setNumber("063-228-0020");
+        restaurant106.setAddress("전북 전주시 완산구 화산천변2길 7-4");
+        restaurantRepository.save(restaurant106);
+
+        RestaurantEntity restaurant107 = new RestaurantEntity();
+        restaurant107.setFoodName("한식");
+        restaurant107.setName("기와");
+        restaurant107.setNumber("063-231-0702");
+        restaurant107.setAddress("전북 전주시 완산구 어진길 15");
+        restaurantRepository.save(restaurant107);
+
+        RestaurantEntity restaurant108 = new RestaurantEntity();
+        restaurant108.setFoodName("카페디저트");
+        restaurant108.setName("슬지제빵소");
+        restaurant108.setNumber("1899-9504");
+        restaurant108.setAddress("전북 부안군 진서면 청자로 1076 슬지제빵소");
+        restaurantRepository.save(restaurant108);
+
+        RestaurantEntity restaurant109 = new RestaurantEntity();
+        restaurant109.setFoodName("한식");
+        restaurant109.setName("달궁식당");
+        restaurant109.setNumber("063-625-8971");
+        restaurant109.setAddress("전북 남원시 산내면 지리산로 311 달궁산장가든");
+        restaurantRepository.save(restaurant109);
+
+        RestaurantEntity restaurant110 = new RestaurantEntity();
+        restaurant110.setFoodName("중식");
+        restaurant110.setName("왕산중화요리 군산");
+        restaurant110.setNumber("063-467-1318");
+        restaurant110.setAddress("전북 군산시 대학로 209 왕산중화요리");
+        restaurantRepository.save(restaurant110);
+
+        RestaurantEntity restaurant111 = new RestaurantEntity();
+        restaurant111.setFoodName("일식");
+        restaurant111.setName("가츠연");
+        restaurant111.setNumber("0507-1309-2277");
+        restaurant111.setAddress("전북 전주시 완산구 홍산북로 46-21 성준빌딩 2층 가츠연");
+        restaurantRepository.save(restaurant111);
+
+        //전남-----------------------------------------------------------------------------------------------------------
+        RestaurantEntity restaurant112 = new RestaurantEntity();
+        restaurant112.setFoodName("해물,해물찜");
+        restaurant112.setName("진미아구전문");
+        restaurant112.setNumber("0507-1349-8953");
+        restaurant112.setAddress("전남 나주시 금성길 65-2");
+        restaurantRepository.save(restaurant112);
+
+        RestaurantEntity restaurant113 = new RestaurantEntity();
+        restaurant113.setFoodName("한식");
+        restaurant113.setName("명동게장");
+        restaurant113.setNumber("0507-1353-0593");
+        restaurant113.setAddress("전남 여수시 봉산남4길 23-26");
+        restaurantRepository.save(restaurant113);
+
+        RestaurantEntity restaurant114 = new RestaurantEntity();
+        restaurant114.setFoodName("한식");
+        restaurant114.setName("도원경");
+        restaurant114.setNumber("0507-1399-5571");
+        restaurant114.setAddress("전남 순천시 순천만길 309 1층 도원경");
+        restaurantRepository.save(restaurant114);
+
+        RestaurantEntity restaurant115 = new RestaurantEntity();
+        restaurant115.setFoodName("한식");
+        restaurant115.setName("순천만정문식당");
+        restaurant115.setNumber("0507-1423-1802");
+        restaurant115.setAddress("전남 순천시 순천만길 492");
+        restaurantRepository.save(restaurant115);
+
+        RestaurantEntity restaurant116 = new RestaurantEntity();
+        restaurant116.setFoodName("고기");
+        restaurant116.setName("쌍교숯불갈비 담양 본점");
+        restaurant116.setNumber("0507-1316-0012");
+        restaurant116.setAddress("전남 담양군 봉산면 송강정로 212");
+        restaurantRepository.save(restaurant116);
+
+        RestaurantEntity restaurant117 = new RestaurantEntity();
+        restaurant117.setFoodName("한식");
+        restaurant117.setName("여수게장 낭만별식");
+        restaurant117.setNumber("010-4672-9227");
+        restaurant117.setAddress("전남 여수시 돌산읍 진두해안길 72 2층 203호");
+        restaurantRepository.save(restaurant117);
+
+        RestaurantEntity restaurant118 = new RestaurantEntity();
+        restaurant118.setFoodName("한식,해물,생선");
+        restaurant118.setName("여수밥상 갈치야");
+        restaurant118.setNumber("061-644-9636");
+        restaurant118.setAddress("전남 여수시 돌산읍 향일암로 378");
+        restaurantRepository.save(restaurant118);
+
+        RestaurantEntity restaurant119 = new RestaurantEntity();
+        restaurant119.setFoodName("카페디저트");
+        restaurant119.setName("코롬방제과점");
+        restaurant119.setNumber("061-244-0885");
+        restaurant119.setAddress("전남 목포시 영산로75번길 7");
+        restaurantRepository.save(restaurant119);
+
+        RestaurantEntity restaurant120 = new RestaurantEntity();
+        restaurant120.setFoodName("카페디저트");
+        restaurant120.setName("모이핀 오션점");
+        restaurant120.setNumber("0507-1477-6003");
+        restaurant120.setAddress("전남 여수시 돌산읍 무술목길 50 모이핀");
+        restaurantRepository.save(restaurant120);
+
+        RestaurantEntity restaurant121 = new RestaurantEntity();
+        restaurant121.setFoodName("일식,스시,초밥");
+        restaurant121.setName("상무초밥 여수낭만포차거리점");
+        restaurant121.setNumber("061-662-7339");
+        restaurant121.setAddress("전남 여수시 이순신광장로 196 1층");
+        restaurantRepository.save(restaurant121);
+
+        RestaurantEntity restaurant122 = new RestaurantEntity();
+        restaurant122.setFoodName("한식");
+        restaurant122.setName("순이네밥상");
+        restaurant122.setNumber("061-662-4883");
+        restaurant122.setAddress("전남 여수시 통제영5길 5 1층 순이네밥상");
+        restaurantRepository.save(restaurant122);
+
+        RestaurantEntity restaurant123 = new RestaurantEntity();
+        restaurant123.setFoodName("한식");
+        restaurant123.setName("초록식당");
+        restaurant123.setNumber("0507-1324-5287");
+        restaurant123.setAddress("전남 함평군 함평읍 중앙길 96-7");
+        restaurantRepository.save(restaurant123);
+
+        RestaurantEntity restaurant124 = new RestaurantEntity();
+        restaurant124.setFoodName("한식");
+        restaurant124.setName("꽃돌게장1번가");
+        restaurant124.setNumber("061-644-0003");
+        restaurant124.setAddress("전남 여수시 봉산2로 36");
+        restaurantRepository.save(restaurant124);
+
+        RestaurantEntity restaurant125 = new RestaurantEntity();
+        restaurant125.setFoodName("국밥,해장국");
+        restaurant125.setName("유정해장국");
+        restaurant125.setNumber("0507-1368-3606");
+        restaurant125.setAddress("전남 여수시 통제영5길 8-1");
+        restaurantRepository.save(restaurant125);
+
+        RestaurantEntity restaurant126 = new RestaurantEntity();
+        restaurant126.setFoodName("한식");
+        restaurant126.setName("고서회관");
+        restaurant126.setNumber("0507-1339-1489");
+        restaurant126.setAddress("전남 담양군 고서면 원등1길 16-7 고서회관");
+        restaurantRepository.save(restaurant126);
+
+        //경북-----------------------------------------------------------------------------------------------------------
+        RestaurantEntity restaurant127 = new RestaurantEntity();
+        restaurant127.setFoodName("한식");
+        restaurant127.setName("경주우렁각시");
+        restaurant127.setNumber("0507-1382-7875");
+        restaurant127.setAddress("경북 경주시 보불로 198 경주우렁각시");
+        restaurantRepository.save(restaurant127);
+
+        RestaurantEntity restaurant128 = new RestaurantEntity();
+        restaurant128.setFoodName("생선,회");
+        restaurant128.setName("묵돌이");
+        restaurant128.setNumber("0507-1405-1962");
+        restaurant128.setAddress("경북 포항시 북구 해안로 107 1층");
+        restaurantRepository.save(restaurant128);
+
+        RestaurantEntity restaurant129 = new RestaurantEntity();
+        restaurant129.setFoodName("한식");
+        restaurant129.setName("향화정");
+        restaurant129.setNumber("0507-1359-8765");
+        restaurant129.setAddress("경북 경주시 사정로57번길 17");
+        restaurantRepository.save(restaurant129);
+
+        RestaurantEntity restaurant130 = new RestaurantEntity();
+        restaurant130.setFoodName("일식");
+        restaurant130.setName("료미");
+        restaurant130.setNumber("0507-1440-5061");
+        restaurant130.setAddress("경북 경주시 포석로 1058-1 료미");
+        restaurantRepository.save(restaurant130);
+
+        RestaurantEntity restaurant131 = new RestaurantEntity();
+        restaurant131.setFoodName("일식,돈가스");
+        restaurant131.setName("료코");
+        restaurant131.setNumber("0507-1409-7477");
+        restaurant131.setAddress("경북 경주시 첨성로99번길 24 료코");
+        restaurantRepository.save(restaurant131);
+
+        RestaurantEntity restaurant132 = new RestaurantEntity();
+        restaurant132.setFoodName("한식");
+        restaurant132.setName("최고집사랑하면");
+        restaurant132.setNumber("0507-1381-0352");
+        restaurant132.setAddress("경북 경주시 보불로 194-3");
+        restaurantRepository.save(restaurant132);
+
+        RestaurantEntity restaurant133 = new RestaurantEntity();
+        restaurant133.setFoodName("고기");
+        restaurant133.setName("영양숯불갈비");
+        restaurant133.setNumber("054-771-2627");
+        restaurant133.setAddress("경북 경주시 봉황로 79");
+        restaurantRepository.save(restaurant133);
+
+        RestaurantEntity restaurant134 = new RestaurantEntity();
+        restaurant134.setFoodName("한식");
+        restaurant134.setName("늘봄");
+        restaurant134.setNumber("054-744-3715");
+        restaurant134.setAddress("경북 경주시 보불로 107 늘봄");
+        restaurantRepository.save(restaurant134);
+
+        RestaurantEntity restaurant135 = new RestaurantEntity();
+        restaurant135.setFoodName("양식,파스타");
+        restaurant135.setName("시즈닝");
+        restaurant135.setNumber("0507-1483-7477");
+        restaurant135.setAddress("경북 경주시 첨성로99번길 25-2");
+        restaurantRepository.save(restaurant135);
+
+        RestaurantEntity restaurant136 = new RestaurantEntity();
+        restaurant136.setFoodName("카페디저트");
+        restaurant136.setName("어마무시 본점");
+        restaurant136.setNumber("0507-1355-6930");
+        restaurant136.setAddress("경북 경주시 양정로 41-12 어마무시카페");
+        restaurantRepository.save(restaurant136);
+
+        RestaurantEntity restaurant137 = new RestaurantEntity();
+        restaurant137.setFoodName("생선,회,해물");
+        restaurant137.setName("환여횟집");
+        restaurant137.setNumber("054-251-8847");
+        restaurant137.setAddress("경북 포항시 북구 해안로 189-1");
+        restaurantRepository.save(restaurant137);
+
+        RestaurantEntity restaurant138 = new RestaurantEntity();
+        restaurant138.setFoodName("한식");
+        restaurant138.setName("소옥");
+        restaurant138.setNumber("0507-1390-3545");
+        restaurant138.setAddress("경북 경주시 포석로1050번길 29 1층");
+        restaurantRepository.save(restaurant138);
+
+        RestaurantEntity restaurant139 = new RestaurantEntity();
+        restaurant139.setFoodName("샤브샤브,고기");
+        restaurant139.setName("샤브20 본점");
+        restaurant139.setNumber("0507-1430-0139");
+        restaurant139.setAddress("경북 포항시 북구 법원로 7 1층 샤브20");
+        restaurantRepository.save(restaurant139);
+
+        RestaurantEntity restaurant140 = new RestaurantEntity();
+        restaurant140.setFoodName("한식,두부");
+        restaurant140.setName("기와골맷돌순두부");
+        restaurant140.setNumber("054-773-2692");
+        restaurant140.setAddress("경북 경주시 숲머리길 142");
+        restaurantRepository.save(restaurant140);
+
+        RestaurantEntity restaurant141 = new RestaurantEntity();
+        restaurant141.setFoodName("고기");
+        restaurant141.setName("포갈집");
+        restaurant141.setNumber("0507-1319-6519");
+        restaurant141.setAddress("경북 포항시 북구 삼호로 213-1 포갈집");
+        restaurantRepository.save(restaurant141);
+
+        //경남-----------------------------------------------------------------------------------------------------------
+        RestaurantEntity restaurant142 = new RestaurantEntity();
+        restaurant142.setFoodName("생선,회");
+        restaurant142.setName("김선장참치 오마카세");
+        restaurant142.setNumber("010-4886-2154");
+        restaurant142.setAddress("경남 사천시 벌리2길 77 1층");
+        restaurantRepository.save(restaurant142);
+
+        RestaurantEntity restaurant143 = new RestaurantEntity();
+        restaurant143.setFoodName("해물,해물찜");
+        restaurant143.setName("부산알찜 양산점");
+        restaurant143.setNumber("0507-1362-4265");
+        restaurant143.setAddress("경남 양산시 물금읍 화합10길 7 부산알찜 양산점");
+        restaurantRepository.save(restaurant143);
+
+        RestaurantEntity restaurant144 = new RestaurantEntity();
+        restaurant144.setFoodName("한식,냉면");
+        restaurant144.setName("하연옥");
+        restaurant144.setNumber("055-746-0525");
+        restaurant144.setAddress("경남 진주시 진주대로 1317-20");
+        restaurantRepository.save(restaurant144);
+
+        RestaurantEntity restaurant145 = new RestaurantEntity();
+        restaurant145.setFoodName("해물,생선");
+        restaurant145.setName("대풍관");
+        restaurant145.setNumber("0507-1325-4446");
+        restaurant145.setAddress("경남 통영시 해송정2길 29");
+        restaurantRepository.save(restaurant145);
+
+        RestaurantEntity restaurant146 = new RestaurantEntity();
+        restaurant146.setFoodName("해물,해물탕");
+        restaurant146.setName("어촌싱싱해물탕");
+        restaurant146.setNumber("055-646-1982");
+        restaurant146.setAddress("경남 통영시 도천동 1008");
+        restaurantRepository.save(restaurant146);
+
+        RestaurantEntity restaurant147 = new RestaurantEntity();
+        restaurant147.setFoodName("한식");
+        restaurant147.setName("통영가");
+        restaurant147.setNumber("0507-1426-0189");
+        restaurant147.setAddress("경남 통영시 동충1길 12-5");
+        restaurantRepository.save(restaurant147);
+
+        RestaurantEntity restaurant148 = new RestaurantEntity();
+        restaurant148.setFoodName("양식");
+        restaurant148.setName("부어스트라덴");
+        restaurant148.setNumber("055-867-6550");
+        restaurant148.setAddress("경남 남해군 삼동면 독일로 33 2동");
+        restaurantRepository.save(restaurant148);
+
+        RestaurantEntity restaurant149 = new RestaurantEntity();
+        restaurant149.setFoodName("한식");
+        restaurant149.setName("대박난맛집 거제 학동점");
+        restaurant149.setNumber("0507-1438-0121");
+        restaurant149.setAddress("경남 거제시 동부면 거제대로 910");
+        restaurantRepository.save(restaurant149);
+
+        RestaurantEntity restaurant150 = new RestaurantEntity();
+        restaurant150.setFoodName("국수");
+        restaurant150.setName("배말칼국수김밥 본점");
+        restaurant150.setNumber("0507-1417-6067");
+        restaurant150.setAddress("경남 거제시 장승포로 2");
+        restaurantRepository.save(restaurant150);
+
+        RestaurantEntity restaurant151 = new RestaurantEntity();
+        restaurant151.setFoodName("중식");
+        restaurant151.setName("심가네해물짬뽕");
+        restaurant151.setNumber("0507-1352-8215");
+        restaurant151.setAddress("경남 통영시 새터길 74-4 심가네해물짬뽕");
+        restaurantRepository.save(restaurant151);
+
+        RestaurantEntity restaurant152 = new RestaurantEntity();
+        restaurant152.setFoodName("한식");
+        restaurant152.setName("대월 통영죽림본점");
+        restaurant152.setNumber("0507-1352-7738");
+        restaurant152.setAddress("경남 통영시 광도면 죽림5로 25-6");
+        restaurantRepository.save(restaurant152);
+
+        RestaurantEntity restaurant153 = new RestaurantEntity();
+        restaurant153.setFoodName("한식");
+        restaurant153.setName("천황식당");
+        restaurant153.setNumber("055-741-2646");
+        restaurant153.setAddress("경남 진주시 촉석로207번길 3");
+        restaurantRepository.save(restaurant153);
+
+        RestaurantEntity restaurant154 = new RestaurantEntity();
+        restaurant154.setFoodName("한식");
+        restaurant154.setName("남해향촌");
+        restaurant154.setNumber("0507-1388-7807");
+        restaurant154.setAddress("경남 남해군 삼동면 동부대로 1278");
+        restaurantRepository.save(restaurant154);
+
+        RestaurantEntity restaurant155 = new RestaurantEntity();
+        restaurant155.setFoodName("고기");
+        restaurant155.setName("금산골 진주혁신도시 본점");
+        restaurant155.setNumber("0507-1404-6201");
+        restaurant155.setAddress("경남 진주시 충의로 20-22 2층 금산골 진주혁신도시 본점");
+        restaurantRepository.save(restaurant155);
+
+        RestaurantEntity restaurant156 = new RestaurantEntity();
+        restaurant156.setFoodName("냉면");
+        restaurant156.setName("하면옥");
+        restaurant156.setNumber("0507-1415-1242");
+        restaurant156.setAddress("경남 거제시 연초면 연하해안로 320");
+        restaurantRepository.save(restaurant156);
 
     }
 }

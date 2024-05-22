@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class EatService {
+public class RestaurantService {
 
     @Autowired
     private RestaurantRepository restaurantRepository;
@@ -23,6 +23,12 @@ public class EatService {
     //식당주소로 검색
     public List<RestaurantEntity> searchRestaurantsByAddressContaining(String address) {
         return restaurantRepository.findByAddressContaining(address);
+    }
+
+    //ID를 통해 특정 음식점을 검색
+    public RestaurantEntity getRestaurantById(Long id){
+        return restaurantRepository.findById(id).orElseThrow(()
+                -> new RuntimeException("Restaurant not found"));
     }
 }
 

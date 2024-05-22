@@ -13,6 +13,11 @@ public class RestaurantEntity {
     private String name;
     private String number;
     private String address;
+    private String info;
+
+    public String getInfo() { return info; }
+
+    public void setInfo(String info) { this.info = info; }
 
     public Long getId() {
         return id;
