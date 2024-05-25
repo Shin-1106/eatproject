@@ -1,3 +1,5 @@
+//음식점 정보를 DB에 저장하는 클래스
+// 현재는 단순히 초기 데이터를 저장하기 위해 CommandLineRunner를 사용하여 DB에 초기 데이터를 저장
 package com.example.eatproject.restaurantdata;
 
 import com.example.eatproject.entity.RecipeEntity;

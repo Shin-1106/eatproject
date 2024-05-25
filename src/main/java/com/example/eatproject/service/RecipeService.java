@@ -1,3 +1,5 @@
+// 비즈니스 로직을 처리하고, 데이터베이스와의 상호작용을 담당
+// 클라이언트가 요청한 음식명에 해당하는 식당 정보 검색 후 처리
 package com.example.eatproject.service;
 
 import com.example.eatproject.entity.RecipeEntity;

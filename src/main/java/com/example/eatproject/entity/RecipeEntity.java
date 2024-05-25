@@ -1,3 +1,4 @@
+// 데이터베이스에 저장될 음식점 정보를 나타내는 클래스
 package com.example.eatproject.entity;
 
 import jakarta.persistence.*;
