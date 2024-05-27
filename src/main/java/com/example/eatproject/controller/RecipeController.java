@@ -35,12 +35,14 @@ public class RecipeController {
 
     private RecipeListDto convertToListDto(RecipeEntity recipeEntity) {
         RecipeListDto recipeListDto = new RecipeListDto();
+        recipeListDto.setId(recipeEntity.getId());
         recipeListDto.setFoodName(recipeEntity.getFoodName());
         return recipeListDto;
     }
 
     private RecipeDetailsDto convertToDetailsDto(RecipeEntity recipeEntity) {
         RecipeDetailsDto recipeDetailsDto = new RecipeDetailsDto();
+        recipeDetailsDto.setId(recipeEntity.getId());
         recipeDetailsDto.setFoodName(recipeEntity.getFoodName());
         recipeDetailsDto.setCalories(recipeEntity.getCalories());
         recipeDetailsDto.setRecipe(recipeEntity.getRecipe());

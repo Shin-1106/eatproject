@@ -4,10 +4,15 @@ package com.example.eatproject.dto;
 
 public class RecipeDetailsDto {
 
+    private Long id;
     private String foodName;
     private String calories;
     private String recipe;
     private String ingredients;
+
+    public Long getId() { return id; }
+
+    public void setId(Long id) { this.id = id; }
 
     public String getFoodName() {
         return foodName;

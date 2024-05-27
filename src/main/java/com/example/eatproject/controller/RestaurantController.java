@@ -47,6 +47,7 @@ public class RestaurantController {
 
     private RestaurantListDto convertToDto(RestaurantEntity restaurantEntity) {
         RestaurantListDto restaurantListDto = new RestaurantListDto();
+        restaurantListDto.setId(restaurantEntity.getId());
         restaurantListDto.setName(restaurantEntity.getName());
         restaurantListDto.setInfo(restaurantEntity.getInfo());
 
@@ -55,6 +56,7 @@ public class RestaurantController {
 
     private RestaurantDetailsDto convertToDetailsDto (RestaurantEntity restaurantEntity){
         RestaurantDetailsDto restaurantDetailsDto = new RestaurantDetailsDto();
+        restaurantDetailsDto.setId(restaurantEntity.getId());
         restaurantDetailsDto.setName(restaurantEntity.getName());
         restaurantDetailsDto.setNumber(restaurantEntity.getNumber());
         restaurantDetailsDto.setAddress(restaurantEntity.getAddress());
