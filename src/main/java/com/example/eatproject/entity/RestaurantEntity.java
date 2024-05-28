@@ -14,6 +14,12 @@ public class RestaurantEntity {
     private String number;
     private String address;
     private String info;
+    @Column(length = 1024)
+    private String image;
+
+    public String getImage() { return image; }
+
+    public void setImage(String image) { this.image = image; }
 
     public String getInfo() { return info; }
 
@@ -23,9 +29,7 @@ public class RestaurantEntity {
         return id;
     }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
+    public void setId(Long id) { this.id = id; }
 
     public String getFoodName() {
         return foodName;

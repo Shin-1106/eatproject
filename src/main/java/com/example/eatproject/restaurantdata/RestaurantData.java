@@ -25,6 +25,7 @@ public class RestaurantData implements CommandLineRunner {
         restaurant1.setNumber("053-939-6767");
         restaurant1.setAddress("대구광역시 북구 대학로 103 지하1층");
         restaurant1.setInfo("맛있는 음식점입니다");
+        restaurant1.setImage("https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20160112_232%2F1452576336467GGpWU_PNG%2F176057566369881_0.png");
         restaurantRepository.save(restaurant1);
 
         RestaurantEntity restaurant2 = new RestaurantEntity();
@@ -33,6 +34,7 @@ public class RestaurantData implements CommandLineRunner {
         restaurant2.setNumber("053-253-0070");
         restaurant2.setAddress("대구광역시 중구 종로 12");
         restaurant2.setInfo("맛있는 음식점입니다");
+        restaurant2.setImage("https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200109_244%2F1578567428491vBFlr_JPEG%2Fb8UeYj8HEF_sZ5a0IXO_cd4O.jpeg.jpg");
         restaurantRepository.save(restaurant2);
 
         RestaurantEntity restaurant3 = new RestaurantEntity();
@@ -41,14 +43,16 @@ public class RestaurantData implements CommandLineRunner {
         restaurant3.setNumber("053-424-5129");
         restaurant3.setAddress("대구광역시 중구 동성로6길 42-6");
         restaurant3.setInfo("맛있는 음식점입니다");
+        restaurant3.setImage("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20160421_235%2Fdory051234_1461202648977o5Fry_JPEG%2F%25BF%25F8%25C1%25D6%25C5%25EB%25B4%25DF.jpg&type=sc960_832");
         restaurantRepository.save(restaurant3);
-        
+
         RestaurantEntity restaurant4 = new RestaurantEntity();
         restaurant4.setFoodName("한식");
         restaurant4.setName("장모님국밥");
         restaurant4.setNumber("053-425-9347");
         restaurant4.setAddress("대구광역시 중구 삼덕동2가 149-6");
         restaurant4.setInfo("맛있는 음식점입니다");
+        restaurant4.setImage("https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200215_98%2F1581741397969EYvpK_JPEG%2F17kfPAYjNQYE4IBo7qiM4HY7.jpg");
         restaurantRepository.save(restaurant4);
 
         RestaurantEntity restaurant5 = new RestaurantEntity();
@@ -57,6 +61,7 @@ public class RestaurantData implements CommandLineRunner {
         restaurant5.setNumber("053-422-3333");
         restaurant5.setAddress("대구광역시 중구 동인동4가 4");
         restaurant5.setInfo("맛있는 음식점입니다");
+        restaurant5.setImage("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA4MDRfNzMg%2FMDAxNjkxMTM1MjEyNDEx.1oFb5KsiXTvEXbfCO1AceM7b7hRZQMxSxeK7Y_fQUfYg.JW69gNqh7XSjiURpUCHPFltTqkx3qjJ7-a2Z_NGg-Hwg.JPEG.cyberokuk%2F%25C3%25E1%25C3%25B5%25BF%25C106.jpg");
         restaurantRepository.save(restaurant5);
 
         RestaurantEntity restaurant6 = new RestaurantEntity();

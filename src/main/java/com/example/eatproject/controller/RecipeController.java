@@ -37,6 +37,7 @@ public class RecipeController {
         RecipeListDto recipeListDto = new RecipeListDto();
         recipeListDto.setId(recipeEntity.getId());
         recipeListDto.setFoodName(recipeEntity.getFoodName());
+        recipeListDto.setImage(recipeEntity.getImage());
         return recipeListDto;
     }
 
@@ -47,6 +48,7 @@ public class RecipeController {
         recipeDetailsDto.setCalories(recipeEntity.getCalories());
         recipeDetailsDto.setRecipe(recipeEntity.getRecipe());
         recipeDetailsDto.setIngredients(recipeEntity.getIngredients());
+        recipeDetailsDto.setImage(recipeEntity.getImage());
         return recipeDetailsDto;
     }
 }

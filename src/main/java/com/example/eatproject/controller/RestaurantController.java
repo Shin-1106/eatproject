@@ -50,6 +50,7 @@ public class RestaurantController {
         restaurantListDto.setId(restaurantEntity.getId());
         restaurantListDto.setName(restaurantEntity.getName());
         restaurantListDto.setInfo(restaurantEntity.getInfo());
+        restaurantListDto.setImage(restaurantEntity.getImage());
 
         return restaurantListDto;
     }
@@ -60,6 +61,7 @@ public class RestaurantController {
         restaurantDetailsDto.setName(restaurantEntity.getName());
         restaurantDetailsDto.setNumber(restaurantEntity.getNumber());
         restaurantDetailsDto.setAddress(restaurantEntity.getAddress());
+        restaurantDetailsDto.setImage(restaurantEntity.getImage());
         return restaurantDetailsDto;
     }
 }
