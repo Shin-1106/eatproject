@@ -3,6 +3,7 @@ package com.example.eatproject.entity;
 
 import jakarta.persistence.*;
 
+@Table(name = "restaurant_entity")
 @Entity
 public class RestaurantEntity {
 

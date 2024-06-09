@@ -3,6 +3,7 @@ package com.example.eatproject.entity;
 
 import jakarta.persistence.*;
 
+@Table(name = "recipe_entity")
 @Entity
 public class RecipeEntity {
 
@@ -15,6 +16,11 @@ public class RecipeEntity {
     private String ingredients;
     @Column(length = 1024)
     private String image;
+    private int likeCount;
+
+    public int getLikeCount() {return likeCount;}
+
+    public void setLikeCount(int likeCount) {this.likeCount = likeCount;}
 
     public String getImage() { return image; }
 
